@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #74A662;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #74A662;
+    flex-direction: column;
+    min-width: 750px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 35px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+#container > * {
+    font-family: 'Playwrite NG Modern', sans-serif;
+    color: #fff;
+    font-size: 1.45rem;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.animation {
+    animation: fade 1.75s linear infinite;
+}
+
+@keyframes fade {
+    25% { 
+        opacity: 55%; 
+    }
+    50% { 
+        opacity: 75%; 
+    }
+    75% { 
+        opacity: 100%; 
+    }
+}
