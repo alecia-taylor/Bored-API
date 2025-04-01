@@ -1,0 +1,24 @@
+{
+    "name": "fun-facts-app",
+    "version": "1.0.0",
+    "description": "An app to display fun facts, with functionality to fetch, add, update, and patch facts.",
+    "main": "index.html",
+    "scripts": {
+      "start": "json-server --watch data.json --port 3000",
+      "dev": "open index.html", 
+      "build": "echo 'No build step' && exit 0"
+    },
+    "keywords": [
+      "fun-facts",
+      "json-server",
+      "api",
+      "fetch"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+      "json-server": "^0.16.3"
+    }
+  }
+  

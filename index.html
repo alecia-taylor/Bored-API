@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Facts App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Fun Facts App</h1>
+
+    <div class="fact-box" id="fact">Click the button or search for a fun fact!</div>
+    <br>
+
+    <!-- Search Input -->
+    <input type="text" id="search" placeholder="Search for fun facts...">
+    <button class="button" onclick="fetchFact()">Search Fact</button>
+    <br><br>
+
+    <!-- Button for random fact -->
+    <button class="button" onclick="fetchFact()">Get a Random Fact</button>
+
+    <hr>
+
+    <!-- Add New Fun Fact -->
+    <h2>Add a New Fun Fact</h2>
+    <input type="text" id="newFact" placeholder="Enter a new fun fact">
+    <button class="button" onclick="addFact()">Add Fact</button>
+
+    <hr>
+
+    <!-- Update Fun Fact -->
+    <h2>Update a Fun Fact (by Index)</h2>
+    <input type="number" id="updateIndex" placeholder="Index to update">
+    <input type="text" id="updatedFact" placeholder="Updated fun fact">
+    <button class="button" onclick="updateFact()">Update Fact</button>
+
+    <hr>
+
+    <script src="main.js"></script>
+</body>
+</html>
