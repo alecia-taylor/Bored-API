@@ -1,6 +1,6 @@
 // Fetch a random fun fact or search for a specific fact by keyword
 export async function fetchFact(query) {
-    let url = "https://api.example.com/fact";
+    let url = "https://api.fungenerators.com";
     if (query) {
         url += `?query=${encodeURIComponent(query)}`;
     }
