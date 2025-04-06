@@ -16,8 +16,3 @@
 
 ---
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 7464bfe (add UI functions for fact display)
